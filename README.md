@@ -1,7 +1,7 @@
 ## welcome!
 
 Come now, and let us reason together, saith the LORD: though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool.
-- [Isaiah 1:18]
+-- Isaiah 1:18
 <!--
 **BenDWit/BenDWit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
