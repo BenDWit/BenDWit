@@ -2,6 +2,7 @@
 
 
 Matthew 7:12
+
 Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law and the prophets.
 <!--
 **BenDWit/BenDWit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
