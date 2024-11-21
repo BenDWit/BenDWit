@@ -40,14 +40,24 @@ icon = "fa-solid fa-envelope"
 title = "Email"
 url = "mailto:ben@bendwit.com"
 
+[[params.socialLinks]]
+icon = "fa-brands fa-gitlab"
+title = "gitlab"
+url = "https://gitlab.com/BenDWit"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-comment"
+title = "xmpp"
+url = "xmpp:bendwit@hot-chilli.eu"
+
 
 [menu]
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
 
 [taxonomies]
 category = "categories"
@@ -59,37 +69,42 @@ series = "series"
 unsafe = true
 
 [markup]
-
-  # Table of contents
-  # Add toc = true to content front matter to enable
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel   = 3
-    ordered    = true
+# Table of contents
+# Add toc = true to content front matter to enable
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+ordered = true
 
 [privacy]
 
-  [privacy.vimeo]
-    disabled = false
-    simple = true
+[privacy.vimeo]
+disabled = false
+simple = true
 
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
 
-  [privacy.instagram]
-    disabled = false
-    simple = true
+[privacy.instagram]
+disabled = false
+simple = true
 
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
 
 [services]
 
-  [services.instagram]
-    disableInlineCSS = true
+[services.instagram]
+disableInlineCSS = true
 
-  [services.twitter]
-    disableInlineCSS = true
+[services.twitter]
+disableInlineCSS = true
+
+
+[outputs]
+home = ["HTML", "RSS"]
+icon = "fa-solid fa-comment"
+title = "xmpp"
